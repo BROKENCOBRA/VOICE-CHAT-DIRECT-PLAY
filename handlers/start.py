@@ -12,7 +12,8 @@ async def start(_, message: Message):
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/EvilZ_VCBot?startgroup=true")
             ],[
             InlineKeyboardButton("💬 Group", url="https://t.me/EvilzHub"),
-            InlineKeyboardButton("📣 Channel", url=f"https://t.me/CoursesHub")  
+            InlineKeyboardButton("📣 Channel", url=f"https://t.me/CoursesHub") 
+            ],[
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
             ]]
         ),
