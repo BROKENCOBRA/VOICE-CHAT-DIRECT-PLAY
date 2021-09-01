@@ -11,7 +11,7 @@ async def start(_, message: Message):
             [[
             InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/EvilZ_VCBot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/EvilzClass"),
+            InlineKeyboardButton("💬 Group", url="https://t.me/EvilzHub"),
             InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
             ]]
         ),
@@ -24,7 +24,7 @@ async def gstart(_, message: Message):
         text="**EvilZ Player Is Online ✅**",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/EvilzClass")
+            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/EvilzHub")
             ]]
         )
     )
@@ -63,7 +63,7 @@ __× First Add Me To Your Group..
 • `/userbotleave` : __Assistant Leaves From The Group.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/EvilzClass")
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/EvilzHub")
               ]]
           )
       )
