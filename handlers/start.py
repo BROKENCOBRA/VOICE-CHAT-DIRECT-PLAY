@@ -3,39 +3,39 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from config import BOT_USERNAME
 
 
-@Client.on_message(filters.command(["start", "start@EvilZ_VCBot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@MemoriesMusicBot & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
         text="**Hello 👋🏻 {}!**\n\nI **Can Play Music In Voice Chats of Telegram Groups.**I Have A **lot of cool feature that will amaze You!**\n\n**Click /cmdlist For More Help On My Usage ❤**".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ Add To Your Group ➕", url="https://t.me/EvilZ_VCBot?startgroup=true")
+            InlineKeyboardButton("➕ 𝙰𝙳𝙳 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕", url="https://t.me/MemoriesMusicBot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Group", url="https://t.me/EvilzHub"),
-            InlineKeyboardButton("📣 Channel", url=f"https://t.me/Courseshub23") 
+            InlineKeyboardButton("💬 𝙶𝚁𝙾𝚄𝙿", url="https://t.me/Team_Memories_Support"),
+            InlineKeyboardButton("📣 𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=f"https://t.me/Team_Memories") 
             ],[
-            InlineKeyboardButton("Commands 🛠", url="https://telegra.ph/Music-Bot-05-07")
+            InlineKeyboardButton("😈 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 ", url="https://t.me/Memory_XY")
             ]]
         ),
         disable_web_page_preview=True
     )
         
-@Client.on_message(filters.command(["start", "start@EvilZ_VCBot"]) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@MemoriesMusicBot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        text="**EvilZ Player Is Online ✅**",
+        text="**𝙼𝙴𝙼𝙾𝚁𝙸𝙴𝚂 𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴 ✅**",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/EvilzHub")
+            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Team_Memories_Support")
             ]]
         )
     )
 
 
-@Client.on_message(filters.command(["cmdlist", "start@EvilZ_VCBot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["cmdlist", "start@MemoriesMusicBot"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
-        text="""**EvilZ Player : Help Menu**
+        text="""**𝙼𝙴𝙼𝙾𝚁𝙸𝙴𝚂 𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃 : 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄**
 
 __× First Add Me To Your Group..
 × Promote Me As Admin In Your Group With All Permission..__
@@ -65,7 +65,7 @@ __× First Add Me To Your Group..
 • `/userbotleave` : __Assistant Leaves From The Group.__""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/EvilzHub")
+              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Team_Memories_Support")
               ]]
           )
       )
