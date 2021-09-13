@@ -160,10 +160,10 @@ def updated_stats(chat, queue, vol=100):
         stats = 'Settings of **{}**'.format(chat.title)
         if len(que) > 0:
             stats += '\n\n'
-            stats += 'Volume : {}%\n'.format(vol)
-            stats += 'Songs in queue : `{}`\n'.format(len(que))
-            stats += 'Now Playing : **{}**\n'.format(queue[0][0])
-            stats += 'Requested by : {}'.format(queue[0][1].mention)
+            stats += '𝚅𝙾𝙻𝚄𝙼𝙴 : {}%\n'.format(vol)
+            stats += '𝚂𝙾𝙽𝙶𝚂 𝙸𝙽 𝚀𝚄𝙴𝚄𝙴 : `{}`\n'.format(len(que))
+            stats += '𝙽𝙾𝚆 𝙿𝙻𝙰𝚈𝙸𝙽𝙶  : **{}**\n'.format(queue[0][0])
+            stats += '𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙱𝚈 : {}'.format(queue[0][1].mention)
     else:
         stats = None
     return stats
@@ -225,7 +225,7 @@ async def settings(client, message):
         else:
             await message.reply(stats, reply_markup=r_ply('play'))
     else:
-        await message.reply('No VC instances running in this chat')
+        await message.reply('𝙽𝙾 𝚅𝙾𝙸𝙲𝙴 𝙲𝙷𝙰𝚃 𝚁𝚄𝙽𝙽𝙸𝙽𝙶 𝙷𝙴𝚁𝙴')
 
 @Client.on_callback_query(filters.regex(pattern=r'^(playlist)$'))
 async def p_cb(b, cb):
@@ -438,7 +438,7 @@ async def play(_, message: Message):
                               #print(e)
                               await lel.edit(
                                   f"<b>🔴 Flood Wait Error 🔴 \nUser {user.first_name} couldn't join your group due to heavy requests for userbot! Make sure user is not banned in group."
-                                  "\n\nOr manually add @MusicXHelper to your Group and try again</b>",
+                                  "\n\nOr manually add @MemoriesVcPlayer to your Group and try again</b>",
                               )
                               pass
     try:
