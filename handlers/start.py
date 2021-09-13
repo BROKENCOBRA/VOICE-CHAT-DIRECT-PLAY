@@ -37,32 +37,29 @@ async def cmdlist(_, message: Message):
     await message.reply_text(
         text="""**𝙼𝙴𝙼𝙾𝚁𝙸𝙴𝚂 𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃 : 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄**
 
-__× First Add Me To Your Group..
-× Promote Me As Admin In Your Group With All Permission..__
+__× 𝙵𝙸𝚁𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿..
+× 𝙿𝚁𝙾𝙼𝙾𝚃𝙴 𝙼𝙴 𝙰𝚂 𝙰𝙳𝙼𝙸𝙽 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚆𝙸𝚃𝙷 𝙰𝙻𝙻 𝙿𝙴𝚁𝙼𝙸𝚂𝚂𝙸𝙾𝙽..__
 
-**🏷 Common Commands.**
+**🏷 𝐂𝐨𝐦𝐦𝐨𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬.**
 
-• `/play` - Song Name : __Plays Via Youtube__
-• `/dplay` - Song Name : __Play Via Deezer__
-• `/splay` - Song Name : __Play Via Jio Saavn__
-• `/playlist` - __Show now playing list__
-• `/current` - __Show now playing__
+• `/play` <song name> - play song you requested
+• `/playlist` - Show now playing list
+• `/current` - Show now playing
+• `/song` <song name> - download songs you want quickly
+• `/search` <query> - search videos on youtube with details
+• `/vid` <song name> - download videos you want quickly
 
-• `/song` - Song Name : __Get The Song From YouTube__
-• `/vid` - Video Name : __Get The Video From YouTube__
-• `/deezer` - song name : __download songs you want quickly via deezer__
-• `/saavn` - song name : __download songs you want quickly via saavn__
-• `/search` - YouTube Title : __(Get YouTube Search Query)__
+**🏷 𝐆𝐫𝐨𝐮𝐩 𝐀𝐝𝐦𝐢𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬.**
 
-**🏷 Group Admin Commands.**
-
-• `/skip` : __Skips Music__
-• `/pause` : __Pause Playing Music__
-• `/resume` : __Resume Playing Music__
-• `/end` : __Stops playing Music__
-• `/reload` : __Reloads Admin List__
-• `/userbotjoin` : __Assistant Joins The Group__
-• `/userbotleave` : __Assistant Leaves From The Group.__""",
+• `/player` - open music player settings panel
+• `/pause` - pause song play
+• `/resume` - resume song play
+• `/skip` - play next song
+• `/end` - stop music play
+• `/userbotjoin` - invite assistant to your chat
+• `/userbotleave` - remove assistant from your chat
+• `/reload` - Refresh admin list
+ : ____""",
         reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/Team_Memories_Support")
