@@ -60,7 +60,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = '**🎵 Uploaded by @GroupMusicPlayBot **'
+        rep = '**🎵 𝚄𝙿𝙻𝙾𝙰𝙳𝙴𝙳 𝙱𝚢 @ **'
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -68,7 +68,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit('❌ Error')
+        m.edit('❌ 𝙴𝚁𝚁𝙾𝚁')
         print(e)
 
     try:
