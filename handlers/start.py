@@ -17,7 +17,7 @@ async def start(_, message: Message):
             InlineKeyboardButton("🥀 DEV ", url="https://t.me/pratheek06")
             ]]
         ),
-        disable_web_page_preview=True
+        disable_web_page_preview=False
     )
         
 @Client.on_message(filters.command(["start", "start@Ethix_Musical_Bot"]) & ~filters.private & ~filters.channel)
