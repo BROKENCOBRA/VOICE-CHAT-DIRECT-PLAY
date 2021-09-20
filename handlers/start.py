@@ -59,6 +59,7 @@ __× 𝙵𝙸𝚁𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶�
 • `/userbotjoin` - invite assistant to your chat
 • `/userbotleave` - remove assistant from your chat
 • `/reload` - Refresh admin list
+: __ https:/t.me/aboutpratheek __""",
         reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT")
