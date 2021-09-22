@@ -35,7 +35,7 @@ async def gstart(_, message: Message):
 @Client.on_message(filters.command(["cmdlist", "start@Miss_florence_bot"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
-        text="""**Miss_florence_bot : 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄**
+        text="""**MISS_FLORENCE_BOT** : **HELP MENU**
 
 __× 𝗙𝗜𝗥𝗦𝗧 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣..
 × 𝗣𝗥𝗢𝗠𝗢𝗧𝗘 𝗠𝗘 𝗔𝗦 𝗔𝗗𝗠𝗜𝗡 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 𝗪𝗜𝗧𝗛 𝗔𝗟𝗟 𝗣𝗘𝗥𝗠𝗜𝗦𝗦𝗜𝗢𝗡..__
@@ -59,7 +59,7 @@ __× 𝗙𝗜𝗥𝗦𝗧 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚�
 • `/userbotjoin` - invite assistant to your chat
 • `/userbotleave` - remove assistant from your chat
 • `/reload` - Refresh admin list
-: __ https:/t.me/aboutpratheek __""",
+: __ Pʀᴀᴛʜᴇᴇᴋ 🥀 __""",
         reply_markup=InlineKeyboardMarkup(
               [[
               InlineKeyboardButton(text="🎙️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT")
