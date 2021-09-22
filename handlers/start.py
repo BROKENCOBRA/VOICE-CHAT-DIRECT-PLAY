@@ -23,7 +23,7 @@ async def start(_, message: Message):
 @Client.on_message(filters.command(["start", "start@Miss_florence_bot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        text="**Pratheek 𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴 ✅**",
+        text="**𝑷𝒓𝒂𝒕𝒉𝒆𝒆𝒌 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑰𝒔 𝑶𝒏𝒍𝒊𝒏𝒆 ✅**",
         reply_markup=InlineKeyboardMarkup(
             [[
             InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT")
