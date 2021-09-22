@@ -451,7 +451,7 @@ async def play(_, message: Message):
         return     
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
-    await lel.edit("**__Searching Your Song__**")
+    await lel.edit("**__🔎 𝐒𝐄𝐀𝐑𝐂𝐇𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐒𝐎𝐍𝐆__**")
     sender_id = message.from_user.id
     user_id = message.from_user.id
     sender_name = message.from_user.first_name
