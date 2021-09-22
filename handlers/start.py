@@ -9,12 +9,12 @@ async def start(_, message: Message):
         text="[ ](https://telegra.ph/file/ba834db90aa69f8b17b31.mp4)**𝗛𝗘𝗟𝗟𝗢 𝗧𝗛𝗘𝗥𝗘 ♥️ {}!**\n\n**𝐓𝐇𝐈𝐒 𝐈𝐒 𝐀 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐁𝐎𝐓 𝐎𝐅 𝐅𝐋𝐎𝐑𝐄𝐍𝐙𝐀✨.**\n\n**💗 𝐀𝐥𝐥𝐨𝐰'𝐬 𝐘𝐨𝐮 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜 𝐎𝐧 𝐆𝐫𝐨𝐮𝐩𝐬 𝐓𝐡𝐫𝐨𝐮𝐠𝐡 𝐓𝐡𝐞 𝐍𝐞𝐰 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦'𝐬 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭𝐬 😇**\n\n**❓ 𝐅𝐨𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐀𝐛𝐨𝐮𝐭 𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐎𝐟 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭, 𝐉𝐮𝐬𝐭 𝐓𝐲𝐩𝐞 /cmdlist ".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ 𝙰𝙳𝙳 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 ➕", url="https://t.me/Miss_florence_bot?startgroup=true")
+            InlineKeyboardButton("➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕", url="https://t.me/Miss_florence_bot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Repo Support", url="https://t.me/SHIZUKA_VC_SUPPORT"),
-            InlineKeyboardButton("📣 Owner Channel", url=f"https://t.me/aboutpratheek") 
+            InlineKeyboardButton("💬 Rᴇᴘᴏ Sᴜᴘᴘᴏʀᴛ", url="https://t.me/SHIZUKA_VC_SUPPORT"),
+            InlineKeyboardButton("📣 Oᴡɴᴇʀ Cʜᴀɴɴᴇʟ", url=f"https://t.me/aboutpratheek") 
             ],[
-            InlineKeyboardButton("🥀 DEV ", url="https://t.me/pratheek06")
+            InlineKeyboardButton("🥀 𝗗𝗘𝗩 ", url="https://t.me/pratheek06")
             ]]
         ),
         disable_web_page_preview=False
@@ -26,7 +26,7 @@ async def gstart(_, message: Message):
         text="**𝑷𝒓𝒂𝒕𝒉𝒆𝒆𝒌 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑰𝒔 𝑶𝒏𝒍𝒊𝒏𝒆 ✅**",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT")
+            InlineKeyboardButton(text="🎙️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT")
             ]]
         )
     )
@@ -37,8 +37,8 @@ async def cmdlist(_, message: Message):
     await message.reply_text(
         text="""**Miss_florence_bot : 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄**
 
-__× 𝙵𝙸𝚁𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿..
-× 𝙿𝚁𝙾𝙼𝙾𝚃𝙴 𝙼𝙴 𝙰𝚂 𝙰𝙳𝙼𝙸𝙽 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚆𝙸𝚃𝙷 𝙰𝙻𝙻 𝙿𝙴𝚁𝙼𝙸𝚂𝚂𝙸𝙾𝙽..__
+__× 𝗙𝗜𝗥𝗦𝗧 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣..
+× 𝗣𝗥𝗢𝗠𝗢𝗧𝗘 𝗠𝗘 𝗔𝗦 𝗔𝗗𝗠𝗜𝗡 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 𝗪𝗜𝗧𝗛 𝗔𝗟𝗟 𝗣𝗘𝗥𝗠𝗜𝗦𝗦𝗜𝗢𝗡..__
 
 **🏷 𝐂𝐨𝐦𝐦𝐨𝐧 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬.**
 
@@ -62,7 +62,7 @@ __× 𝙵𝙸𝚁𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶�
 : __ https:/t.me/aboutpratheek __""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ Support Group 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT")
+              InlineKeyboardButton(text="🎙️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT")
               ]]
           )
       )
