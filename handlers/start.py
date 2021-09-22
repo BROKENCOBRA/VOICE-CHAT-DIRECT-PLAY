@@ -3,7 +3,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from config import BOT_USERNAME
 
 
-@Client.on_message(filters.command(["start", "start@Ethix_Musical_Bot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@Miss_florence_bot"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
         text="[ ](https://telegra.ph/file/ba834db90aa69f8b17b31.mp4)**𝗛𝗘𝗟𝗟𝗢 𝗧𝗛𝗘𝗥𝗘 ♥️ {}!**\n\n**𝐓𝐇𝐈𝐒 𝐈𝐒 𝐀 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐁𝐎𝐓 𝐎𝐅 𝐅𝐋𝐎𝐑𝐄𝐍𝐙𝐀✨.**💗 𝐀𝐥𝐥𝐨𝐰'𝐬 𝐘𝐨𝐮 𝐓𝐨 𝐏𝐥𝐚𝐲 𝐌𝐮𝐬𝐢𝐜 𝐎𝐧 𝐆𝐫𝐨𝐮𝐩𝐬 𝐓𝐡𝐫𝐨𝐮𝐠𝐡 𝐓𝐡𝐞 𝐍𝐞𝐰 𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦'𝐬 𝐕𝐨𝐢𝐜𝐞 𝐂𝐡𝐚𝐭𝐬 😇**\n\n❓ 𝐅𝐨𝐫 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐀𝐛𝐨𝐮𝐭 𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞 𝐎𝐟 𝐓𝐡𝐢𝐬 𝐁𝐨𝐭, 𝐉𝐮𝐬𝐭 𝐓𝐲𝐩𝐞 /cmdlist ".format(message.from_user.mention),
@@ -20,7 +20,7 @@ async def start(_, message: Message):
         disable_web_page_preview=False
     )
         
-@Client.on_message(filters.command(["start", "start@Ethix_Musical_Bot"]) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@Miss_florence_bot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
         text="**Pratheek 𝙼𝚄𝚂𝙸𝙲 𝙱𝙾𝚃 𝙸𝚂 𝙾𝙽𝙻𝙸𝙽𝙴 ✅**",
@@ -32,10 +32,10 @@ async def gstart(_, message: Message):
     )
 
 
-@Client.on_message(filters.command(["cmdlist", "start@Ethix_Musical_Bot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["cmdlist", "start@Miss_florence_bot"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
-        text="""**Ethix_Musical_Bot : 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄**
+        text="""**Miss_florence_bot : 𝙷𝙴𝙻𝙿 𝙼𝙴𝙽𝚄**
 
 __× 𝙵𝙸𝚁𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿..
 × 𝙿𝚁𝙾𝙼𝙾𝚃𝙴 𝙼𝙴 𝙰𝚂 𝙰𝙳𝙼𝙸𝙽 𝙸𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝚆𝙸𝚃𝙷 𝙰𝙻𝙻 𝙿𝙴𝚁𝙼𝙸𝚂𝚂𝙸𝙾𝙽..__
