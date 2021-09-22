@@ -401,7 +401,7 @@ async def m_cb(b, cb):
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
     global que
-    lel = await message.reply("**__Processing__**")
+    lel = await message.reply("**__🔄 𝐏𝐑𝐎𝐂𝐄𝐒𝐒𝐈𝐍𝐆__**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -462,7 +462,7 @@ async def play(_, message: Message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    await lel.edit("**__Processing Your Song__**")
+    await lel.edit("**__💖𝐏𝐑𝐎𝐂𝐄𝐒𝐒𝐈𝐍𝐆 𝐘𝐎𝐔𝐑 𝐒𝐎𝐍𝐆💖__**")
     ydl_opts = {"format": "bestaudio/best"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
