@@ -3,7 +3,7 @@ import asyncio
 from config import SUDO_USERS, PMPERMIT, PMMSG
 from pyrogram import filters
 from pyrogram.types import Message
-from .callsmusic.callsmusic import client as USER
+from callsmusic.callsmusic import client as USER
 
 PMSET =True
 pchats = []
