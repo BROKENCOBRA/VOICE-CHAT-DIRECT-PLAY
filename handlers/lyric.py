@@ -2,7 +2,7 @@ import io
 
 from pyrogram import Client as pbot
 from pyrogram import filters
-from tswift import Song
+from import Song
 
 # Lel, Didn't Get Time To Make New One So Used Plugin Made br @mrconfused and @sandy1709 dont edit credits
 
