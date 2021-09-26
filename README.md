@@ -13,10 +13,6 @@
 [![Support !](https://badgen.net/badge/Support%20/Group/blue)](https://telegram.dog/SHIZUKA_VC_SUPPORT)
 
 
-<p align="center">
-<a href="https://github.com/TG-MUSICS/Telegram_VC_Bot/commits/"> <img src="https://img.shields.io/github/last-commit/TG-MUSICS/TELEGRAM_VC_BOT?color=white&logo=github&logoColor=dark&style=for-the-badge" /></a>
-</p>
-
 ### Features✨
 
 - **Thumbnail Support**
