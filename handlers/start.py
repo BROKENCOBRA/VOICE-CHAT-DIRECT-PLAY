@@ -27,41 +27,41 @@ async def _human_time_duration(seconds):
     return ', '.join(parts)
 
 
-@Client.on_message(filters.command(["start", "start@Aturma_Vc_Bot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@s4shiv_musicbot"]) & filters.private & ~filters.channel)
 async def start(_, message: Message):
     await message.reply_text(
-        text="[ ](https://telegra.ph/file/ba834db90aa69f8b17b31.mp4)**𝗛𝗘𝗟𝗟𝗢 𝗧𝗛𝗘𝗥𝗘 ♥️ {}!**\n\n**𝐓𝐇𝐈𝐒 𝐈𝐒 𝐀 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐁𝐎𝐓 𝐎𝐅 𝐏𝐑𝐀𝐓𝐇𝐄𝐄𝐊✨.**\n\n🎶 𝑨𝒍𝒍𝒐𝒘𝒔 𝒀𝒐𝒖 𝑻𝒐 𝑷𝒍𝒂𝒚 𝑴𝒖𝒔𝒊𝒄 𝑶𝒏 𝑮𝒓𝒐𝒖𝒑𝒔 𝑻𝒉𝒓𝒐𝒖𝒈𝒉 𝑻𝒉𝒆 𝑵𝒆𝒘 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑽𝒐𝒊𝒄𝒆 𝑪𝒉𝒂𝒕𝒔\n\n🥀𝑭𝒐𝒓 𝑰𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 𝑨𝒃𝒐𝒖𝒕 𝑨𝒍𝒍 𝑭𝒆𝒂𝒕𝒖𝒓𝒆 𝑶𝒇 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕, 𝑪𝒍𝒊𝒄𝒌 𝑶𝒏 𝑻𝒉𝒆 𝑪𝒐𝒎𝒎𝒂𝒏𝒅𝒔 ⚙ 𝑩𝒖𝒕𝒕𝒐𝒏 𝑩𝒆𝒍𝒐𝒘".format(message.from_user.mention),
+        text="[ ](https://telegra.ph/file/0f8300efafe502f54efb4.mp4)**𝗛𝗘𝗟𝗟𝗢 𝗧𝗛𝗘𝗥𝗘 ♥️ {}!**\n\n**𝐓𝐇𝐈𝐒 𝐈𝐒 𝐀 𝐏𝐑𝐈𝐕𝐀𝐓𝐄 𝐁𝐎𝐓 𝐎𝐅 𝐒𝐇𝐈𝐕✨.**\n\n🎶 𝑨𝒍𝒍𝒐𝒘𝒔 𝒀𝒐𝒖 𝑻𝒐 𝑷𝒍𝒂𝒚 𝑴𝒖𝒔𝒊𝒄 𝑶𝒏 𝑮𝒓𝒐𝒖𝒑𝒔 𝑻𝒉𝒓𝒐𝒖𝒈𝒉 𝑻𝒉𝒆 𝑵𝒆𝒘 𝑻𝒆𝒍𝒆𝒈𝒓𝒂𝒎 𝑽𝒐𝒊𝒄𝒆 𝑪𝒉𝒂𝒕𝒔\n\n🥀𝑭𝒐𝒓 𝑰𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 𝑨𝒃𝒐𝒖𝒕 𝑨𝒍𝒍 𝑭𝒆𝒂𝒕𝒖𝒓𝒆 𝑶𝒇 𝑻𝒉𝒊𝒔 𝑩𝒐𝒕, 𝑪𝒍𝒊𝒄𝒌 𝑶𝒏 𝑻𝒉𝒆 𝑪𝒐𝒎𝒎𝒂𝒏𝒅𝒔 ⚙ 𝑩𝒖𝒕𝒕𝒐𝒏 𝑩𝒆𝒍𝒐𝒘".format(message.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton("➕ Sᴜᴍᴍᴏɴ Mᴇ ➕", url="https://t.me/Aturma_Vc_Bot?startgroup=true")
+            InlineKeyboardButton("➕ Sᴜᴍᴍᴏɴ Mᴇ ➕", url="https://t.me/S4shiv_musicBot?startgroup=true")
             ],[
-            InlineKeyboardButton("💬 Rᴇᴘᴏ Sᴜᴘᴘᴏʀᴛ", url="https://t.me/SHIZUKA_VC_SUPPORT"),
-            InlineKeyboardButton("📣 Oᴡɴᴇʀ Cʜᴀɴɴᴇʟ", url=f"https://t.me/aboutpratheek") 
+            InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Alone_boy_xd_01"),
+            InlineKeyboardButton("📣 Oᴡɴᴇʀ", url=f"https://t.me/Shivamdemon") 
             ],[
-            InlineKeyboardButton("🥀 𝗗𝗘𝗩 ", url="https://t.me/pratheek06")
+            InlineKeyboardButton("🥀 𝗗𝗘𝗩 ", url="https://t.me/shivamdemon")
             ],[
-            InlineKeyboardButton("⚙ Cᴏᴍᴍᴀɴᴅs", url="https://telegra.ph/HOW-TO-USE-PRATHEEK-PRIVATE-MUSIC-BOT-09-24-2")
+            InlineKeyboardButton("⚙ 𝐆𝐑𝐎𝐔𝐏", url="https://t.me/swagpartners_xd")
             ]]
         ),
         disable_web_page_preview=False
     )
         
-@Client.on_message(filters.command(["start", "start@Aturma_Vc_Bot"]) & ~filters.private & ~filters.channel)
+@Client.on_message(filters.command(["start", "start@s4shiv_musicBot"]) & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
     await message.reply_text(
-        text="✅★Pʀᴀᴛʜᴇᴇᴋ Bᴏᴛ Is Oɴʟɪɴᴇ Nᴏᴡ★",
+        text="✅★Dᴇᴍᴏɴ Bᴏᴛ Is Oɴʟɪɴᴇ Nᴏᴡ★",
         reply_markup=InlineKeyboardMarkup(
             [[
-            InlineKeyboardButton(text="🎙️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT")
+            InlineKeyboardButton(text="🎙️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🎙️", url="https://t.me/shivamdemon")
             ]]
         )
     )
 
 
-@Client.on_message(filters.command(["phelp", "start@Aturma_Vc_Bot"]) & filters.private & ~filters.channel)
+@Client.on_message(filters.command(["phelp", "start@s4shiv_musicBot"]) & filters.private & ~filters.channel)
 async def cmdlist(_, message: Message):
     await message.reply_text(
-        text="""**PRATHEEK_XD** : **HELP MENU**
+        text="""**S4SHIV** : **HELP MENU**
 
 __× 𝗙𝗜𝗥𝗦𝗧 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣..
 × 𝗣𝗥𝗢𝗠𝗢𝗧𝗘 𝗠𝗘 𝗔𝗦 𝗔𝗗𝗠𝗜𝗡 𝗜𝗡 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣 𝗪𝗜𝗧𝗛 𝗔𝗟𝗟 𝗣𝗘𝗥𝗠𝗜𝗦𝗦𝗜𝗢𝗡..__
@@ -85,16 +85,16 @@ __× 𝗙𝗜𝗥𝗦𝗧 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚�
 • `/userbotjoin` - invite assistant to your chat
 • `/userbotleave` - remove assistant from your chat
 • `/reload` - Refresh admin list
- __ Pʀᴀᴛʜᴇᴇᴋ 🥀 __""",
+ __ Sʜɪᴠ🥀 __""",
         reply_markup=InlineKeyboardMarkup(
               [[
-              InlineKeyboardButton(text="🎙️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗚𝗥𝗢𝗨𝗣 🎙️", url="https://t.me/SHIZUKA_VC_SUPPORT")
+              InlineKeyboardButton(text="🎙️ 𝗦𝗨𝗣𝗣𝗢𝗥𝗧  🎙️", url="https://t.me/SHIVAMDEMON")
               ]]
           )
       )
 
 
-@Client.on_message(filters.command(["ping", "ping@Aturma_Vc_Bot"]) & ~filters.edited)
+@Client.on_message(filters.command(["ping", "ping@S4SHIV_MUSICBot"]) & ~filters.edited)
 async def ping_pong(_, message: Message):
     start = time()
     m_reply = await message.reply_text("pinging...")
